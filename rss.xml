@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[runjak.github.io]]></title><description><![CDATA[I might aswell try blogging again.]]></description><link>https://runjak.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 10 Jun 2018 15:14:16 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[After ~8 years without a blog I got the feeling that it could be interesting
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[runjak.github.io]]></title><description><![CDATA[I might aswell try blogging again.]]></description><link>https://runjak.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 10 Jun 2018 16:20:58 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[After ~8 years without a blog I got the feeling that it could be interesting
 to give blogging another go. I used to write rather…]]></description><link>https://runjak.github.io//hello-world/</link><guid isPermaLink="false">https://runjak.github.io//hello-world/</guid><pubDate>Sun, 10 Jun 2018 11:39:41 GMT</pubDate><content:encoded>&lt;p&gt;After ~8 years without a blog I got the feeling that it could be interesting
 to give blogging another go.&lt;/p&gt;
 &lt;p&gt;I used to write rather infrequently, so I guess that will happen again.
@@ -6,7 +6,7 @@ Still there are a handful of things I’d like to write down.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-blog/static/i-should-12f1868e7993bcbbf173f226dce618fe-adc74.jpeg&quot;
+    href=&quot;/static/i-should-12f1868e7993bcbbf173f226dce618fe-adc74.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -25,10 +25,10 @@ Still there are a handful of things I’d like to write down.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;I should start a blog&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-blog/static/i-should-12f1868e7993bcbbf173f226dce618fe-adc74.jpeg&quot;
-        srcset=&quot;/gatsby-starter-blog/static/i-should-12f1868e7993bcbbf173f226dce618fe-e40b4.jpeg 148w,
-/gatsby-starter-blog/static/i-should-12f1868e7993bcbbf173f226dce618fe-ead33.jpeg 295w,
-/gatsby-starter-blog/static/i-should-12f1868e7993bcbbf173f226dce618fe-adc74.jpeg 500w&quot;
+        src=&quot;/static/i-should-12f1868e7993bcbbf173f226dce618fe-adc74.jpeg&quot;
+        srcset=&quot;/static/i-should-12f1868e7993bcbbf173f226dce618fe-e40b4.jpeg 148w,
+/static/i-should-12f1868e7993bcbbf173f226dce618fe-ead33.jpeg 295w,
+/static/i-should-12f1868e7993bcbbf173f226dce618fe-adc74.jpeg 500w&quot;
         sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
       /&gt;
     &lt;/span&gt;
