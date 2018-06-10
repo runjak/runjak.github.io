@@ -5,7 +5,7 @@ module.exports = {
     description: 'I might aswell try blogging again.',
     siteUrl: 'https://runjak.github.io/',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
