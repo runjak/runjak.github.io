@@ -42,13 +42,12 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "dev": "./node_modules/.bin/gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "./node_modules/.bin/gatsby develop",
     "build": "./node_modules/.bin/gatsby build",
-    "deploy": "./node_modules/.bin/gatsby build --prefix-paths && ./node_modules/.bin/gh-pages -d public",
+    "deploy": "./node_modules/.bin/gatsby build --prefix-paths && ./node_modules/.bin/gh-pages -d public -b master",
     "fix-semi": "./node_modules/.bin/eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
     "date": "date -u +\"%Y-%m-%dT%H:%M:%SZ\""
   }
