@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{397:function(t,e){t.exports={data:{site:{siteMetadata:{title:"runjak.github.io"}},allMarkdownRemark:{edges:[{node:{excerpt:"After ~8 years without a blog I got the feeling that it could be interesting\nto give blogging another go. I used to write rather…",fields:{slug:"/hello-world/"},frontmatter:{date:"2018-06-10",title:"Hello World"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-19e9001672250bdf1dde.js.map
