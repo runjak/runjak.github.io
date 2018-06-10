@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Jakob Runge <runjak+blog@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.250",
+    "gatsby": "^1.9.270",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-feed": "^1.3.20",
     "gatsby-plugin-google-analytics": "^1.0.29",
@@ -42,13 +42,13 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "dev": "gatsby develop",
+    "dev": "./node_modules/.bin/gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+    "develop": "./node_modules/.bin/gatsby develop",
+    "build": "./node_modules/.bin/gatsby build",
+    "deploy": "./node_modules/.bin/gatsby build --prefix-paths && ./node_modules/.bin/gh-pages -d public",
+    "fix-semi": "./node_modules/.bin/eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }
