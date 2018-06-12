@@ -13,6 +13,7 @@ import { rhythm } from '../utils/typography'
 const ulStyles = {
   listStyle: 'none',
   display: 'flex',
+  margin: 0,
 };
 
 const liStyles = {
@@ -39,9 +40,16 @@ function Bio() {
           height: rhythm(2),
         }}
       />
-      <p>
-        Written by <strong>Jakob Runge</strong>.
-        You can also find him here:
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
+        <p style={{ margin: 0 }}>
+          Written by <strong>Jakob Runge</strong>.
+          You can also find him here:
+        </p>
         <ul style={ulStyles}>
           <li style={liStyles}>
             <a
@@ -71,7 +79,7 @@ function Bio() {
             </a>
           </li>
         </ul>
-      </p>
+      </div>
     </div>
   );
 }
